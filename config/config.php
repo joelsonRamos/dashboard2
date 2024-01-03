@@ -1,0 +1,22 @@
+<?php 
+	if(session_status() == PHP_SESSION_NONE){
+		session_start();
+	}
+
+	// variable declaration
+	$username = "";
+	$email    = "";
+	$errors = array(); 
+	$_SESSION['success'] = "";
+
+	// connect to database
+	$db = mysqli_connect('localhost', 'root', '', 'mydb');
+
+	// REGISTER USER
+	
+
+	// ... 
+
+	
+
+?>
